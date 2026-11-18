@@ -6,7 +6,8 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://jose-luis-pereira-ferreras.github.io',
+	base: '/protecto-aatro2',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
